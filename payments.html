@@ -63,7 +63,7 @@
             <div class="page-head">
               <div>
                 <h1>Course Payments</h1>
-                <p class="subtitle">Your CPC40120 fee schedule and transaction history.</p>
+                <p class="subtitle">Status of your CPC40120 enrolment fees.</p>
               </div>
               <div class="actions">
                 <a class="btn btn-secondary btn-sm" href="#">
@@ -73,93 +73,16 @@
               </div>
             </div>
 
-            <!-- Payment summary -->
-            <div class="payment-summary-card">
-              <div class="ps-row">
-                <div class="ps-block"><span class="ps-label">Course Fee</span><span class="ps-value">$4,500.00</span></div>
-                <div class="ps-block"><span class="ps-label">Paid to Date</span><span class="ps-value accent">$3,375.00</span></div>
-                <div class="ps-block"><span class="ps-label">Outstanding</span><span class="ps-value">$1,125.00</span></div>
-                <div class="ps-block"><span class="ps-label">Next Payment</span><span class="ps-value">12 Aug 2026</span></div>
-              </div>
-              <div class="ps-bar-wrap">
-                <div class="ps-bar-track"><div class="ps-bar-fill" style="width:75%"></div></div>
-                <div class="ps-bar-meta"><span>3 of 4 instalments paid</span><span>75% complete</span></div>
-              </div>
-            </div>
-
-            <!-- Upcoming payment -->
-            <div class="list-section-head">
-              <h3>Upcoming payment</h3>
-            </div>
-            <article class="agreement-card">
-              <span class="doc-icon" style="background:var(--ac-warn-50);color:var(--ac-accent-600)">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+            <!-- Payment status -->
+            <div class="payment-summary-card" style="text-align:center;padding:36px 28px;">
+              <span style="display:inline-flex;align-items:center;justify-content:center;width:64px;height:64px;border-radius:50%;background:rgba(255,255,255,0.15);margin-bottom:18px;">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--ac-accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
               </span>
-              <div class="doc-body">
-                <h3>Instalment 4 of 4</h3>
-                <div class="doc-meta">
-                  <span>$1,125.00</span>
-                  <span>Due 12 Aug 2026</span>
-                  <span>Auto-charge from card ending 4422</span>
-                </div>
-              </div>
-              <div class="doc-actions">
-                <span class="badge badge-warn">Scheduled</span>
-                <a class="btn btn-secondary btn-sm" href="#">Pay now</a>
-              </div>
-            </article>
-
-            <!-- Transaction history -->
-            <div class="list-section-head">
-              <h3>Transaction history</h3>
-              <span class="count">3 payments</span>
-            </div>
-            <div class="data-table-wrap">
-              <table class="data-table">
-                <thead>
-                  <tr>
-                    <th>Date</th>
-                    <th>Reference</th>
-                    <th>Description</th>
-                    <th>Method</th>
-                    <th class="num">Amount</th>
-                    <th>Status</th>
-                    <th></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="muted">14 May 2026</td>
-                    <td class="strong">INV-2026-0418</td>
-                    <td>Instalment 3 of 4 — CPC40120 enrolment</td>
-                    <td class="muted">Visa ···· 4422</td>
-                    <td class="num amount">$1,125.00</td>
-                    <td><span class="badge badge-success">Paid</span></td>
-                    <td><a href="#">Receipt</a></td>
-                  </tr>
-                  <tr>
-                    <td class="muted">12 Feb 2026</td>
-                    <td class="strong">INV-2026-0118</td>
-                    <td>Instalment 2 of 4 — CPC40120 enrolment</td>
-                    <td class="muted">Visa ···· 4422</td>
-                    <td class="num amount">$1,125.00</td>
-                    <td><span class="badge badge-success">Paid</span></td>
-                    <td><a href="#">Receipt</a></td>
-                  </tr>
-                  <tr>
-                    <td class="muted">12 Nov 2025</td>
-                    <td class="strong">INV-2025-1018</td>
-                    <td>Instalment 1 of 4 — CPC40120 enrolment deposit</td>
-                    <td class="muted">Visa ···· 4422</td>
-                    <td class="num amount">$1,125.00</td>
-                    <td><span class="badge badge-success">Paid</span></td>
-                    <td><a href="#">Receipt</a></td>
-                  </tr>
-                </tbody>
-              </table>
+              <h2 style="margin:0 0 8px 0;font-size:24px;font-weight:600;position:relative;z-index:1;">All paid</h2>
+              <p style="margin:0;color:rgba(255,255,255,0.85);font-size:14px;position:relative;z-index:1;">Your CPC40120 enrolment fees are fully settled.</p>
             </div>
 
-            <p style="margin-top:16px;font-size:12px;color:var(--ac-text-muted)">Payments are processed by Stripe on behalf of Alliance College. Questions? Email <a href="mailto:accounts@alliancecollege.edu.au">accounts@alliancecollege.edu.au</a>.</p>
+            <p style="margin-top:16px;font-size:12px;color:var(--ac-text-muted)">Need a receipt or have a billing question? Email <a href="mailto:accounts@alliancecollege.edu.au">accounts@alliancecollege.edu.au</a>.</p>
           </section>
         </div>
       </div>

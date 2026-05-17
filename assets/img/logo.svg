@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 56" fill="none" role="img" aria-label="Alliance College">
+  <g>
+    <rect x="0" y="0" width="56" height="56" rx="12" fill="#1e3a8a"/>
+    <path d="M19 41 L28 17 L34 17 L43 41 L37.5 41 L35.5 35 L26.5 35 L24.5 41 Z M28.2 30 L33.8 30 L31 21.6 Z" fill="#ffffff"/>
+    <rect x="36" y="11" width="6" height="6" rx="2" fill="#d4a017"/>
+  </g>
+  <g fill="#1e3a8a" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="700">
+    <text x="72" y="28" font-size="20" letter-spacing="-0.5">Alliance</text>
+    <text x="72" y="48" font-size="20" letter-spacing="-0.5" fill="#d4a017">College</text>
+  </g>
+</svg>

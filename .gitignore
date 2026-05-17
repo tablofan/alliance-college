@@ -1,0 +1,23 @@
+# Credentials
+.env
+.env.local
+
+# Scraper output (HTML dumps & screenshots — can contain personal data)
+scraper/output/*
+!scraper/output/.gitkeep
+scraper/.storage_state.json
+scraper/.libs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.python-version
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

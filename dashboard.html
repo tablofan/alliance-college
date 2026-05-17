@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learner — Alliance College</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo-mark.svg" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="top-nav">
+      <a class="top-nav-logo" href="dashboard.html">
+        <img src="assets/img/logo-mark.svg" alt="Alliance College" />
+        <span class="name">Alliance College</span>
+      </a>
+      <div class="top-nav-search" style="flex:1;max-width:520px;margin-left:32px;position:relative;">
+        <svg style="position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--ac-text-light);pointer-events:none" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="search" placeholder="Search activities, units of competency and resources" style="width:100%;height:40px;padding:0 14px 0 38px;border:1px solid var(--ac-border-strong);border-radius:var(--ac-radius);background:#fff;font-size:13px;color:var(--ac-text);" />
+      </div>
+      <div class="top-nav-right">
+        <button class="icon-btn" aria-label="Help">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        </button>
+        <button class="icon-btn" aria-label="Agreements">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 19c0-1.5-2.5-2.7-4.5-2.7s-4.5 1.2-4.5 2.7M4 19c0-1 1.5-2 4-2"/><circle cx="15.5" cy="11" r="3"/><circle cx="8" cy="13" r="2"/></svg>
+        </button>
+        <button class="icon-btn" aria-label="Calendar">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          <span class="badge"></span>
+        </button>
+        <div class="user-menu" id="userMenu" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">
+          <span class="avatar">RY</span>
+          <svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          <div class="user-dropdown" id="userDropdown">
+            <div class="header">
+              <span class="name">Ren You</span>
+              <span class="email">ren@gosequential.com</span>
+            </div>
+            <a href="#">My profile</a>
+            <a href="#">Account settings</a>
+            <a href="#">Help &amp; support</a>
+            <div class="divider"></div>
+            <button id="logoutBtn">Sign out</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="app-main">
+      <div class="container">
+        <div class="dash-layout">
+          <section class="dash-main">
+
+            <!-- Course rows -->
+            <a class="course-row" href="#" aria-label="EntryConnect Form">
+              <span class="thumb gold">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </span>
+              <div class="row-body">
+                <h3 class="row-title">EntryConnect Form — Connect with agencies</h3>
+                <div class="row-sub">
+                  <span>ENTRYCONNECT</span>
+                  <span class="dot"></span>
+                  <span>Complete your onboarding</span>
+                </div>
+              </div>
+              <span class="row-chev">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+              </span>
+            </a>
+
+            <article class="course-row">
+              <span class="thumb green">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              </span>
+              <div class="row-body">
+                <h3 class="row-title">Standard Support Package</h3>
+                <div class="row-sub">
+                  <span>SSUP</span>
+                  <span class="dot"></span>
+                  <span>22 Oct, 2025</span>
+                </div>
+                <div class="row-actions">
+                  <button class="pill-btn" type="button">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5L12 4l9 5.5"/><path d="M5 10.5V20h14V10.5"/></svg>
+                    Workshops
+                  </button>
+                  <button class="pill-btn" type="button">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    Learnings
+                  </button>
+                  <button class="pill-btn" type="button">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                    Assessments
+                  </button>
+                </div>
+              </div>
+              <span class="row-chev">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+              </span>
+            </article>
+
+            <a class="course-row" href="course.html" aria-label="Open Certificate IV in Building and Construction">
+              <span class="thumb">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 22h20"/><path d="M5 22V8l5-3 5 3v14"/><path d="M15 22V11l5-3v14"/><path d="M8 12h2M8 16h2M8 20h2"/></svg>
+              </span>
+              <div class="row-body">
+                <h3 class="row-title">CPC40120 — Certificate IV in Building and Construction</h3>
+                <div class="row-sub">
+                  <span>CPC40120</span>
+                  <span class="dot"></span>
+                  <span>22 Nov, 2025 — 19 Nov, 2026</span>
+                </div>
+                <div class="row-actions">
+                  <button class="pill-btn" type="button">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="15" y2="17"/></svg>
+                    Learning Plan
+                  </button>
+                  <button class="pill-btn" type="button">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5L12 4l9 5.5"/><path d="M5 10.5V20h14V10.5"/></svg>
+                    Workshops
+                  </button>
+                  <button class="pill-btn" type="button">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+                    Results
+                  </button>
+                </div>
+              </div>
+              <span class="row-chev">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+              </span>
+            </a>
+
+            <!-- Recent Results -->
+            <div class="results-tabs">
+              <div class="tabs">
+                <button class="active" type="button" role="tab" aria-selected="true">Recent Results <span style="background:var(--ac-primary-50);color:var(--ac-primary);padding:1px 8px;border-radius:999px;font-size:11px;font-weight:600;margin-left:6px">0</span></button>
+              </div>
+              <div class="results-empty">
+                <svg class="glyph" viewBox="0 0 100 100" fill="none" aria-hidden="true">
+                  <circle cx="50" cy="50" r="40" fill="#eef2fb"/>
+                  <path d="M30 50l15 14 25-28" stroke="#8c9aab" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                </svg>
+                <h4>There aren't any recent Assessment results available yet.</h4>
+                <p>Any Assessments marked and finalised in the last two weeks will appear here.</p>
+              </div>
+            </div>
+          </section>
+
+          <aside class="dash-rail">
+            <div class="announce-card">
+              <div class="announce-card-head">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--ac-text-muted)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                <h3>Course Announcements</h3>
+              </div>
+              <div class="announce-list">
+                <article class="announce-item">
+                  <h4>CPCCBC4003 wrap-up — Saturday 23 May</h4>
+                  <div class="meta">
+                    <span>Luke Gu</span>
+                    <span class="dot"></span>
+                    <span>15 May 2026 at 7:30pm</span>
+                  </div>
+                  <p>Final session on Construction Contracts this Saturday. We'll cover variations, EOTs and practical completion. Recordings from previous sessions are on the Workshops page.</p>
+                  <a class="read-more" href="workshops.html">Watch past sessions →</a>
+                </article>
+                <article class="announce-item">
+                  <h4>Final Step Required Before Your Certificate Can Be Issued</h4>
+                  <div class="meta">
+                    <span>Luke Gu</span>
+                    <span class="dot"></span>
+                    <span>03 May 2026 at 10:24am</span>
+                  </div>
+                  <p>Before your certificate can be issued you must complete a brief Competency Interview (video verification call)…</p>
+                </article>
+                <article class="announce-item">
+                  <h4>Please Complete Your Personal Profile Before Commencing Units</h4>
+                  <div class="meta">
+                    <span>Alliance College Admin</span>
+                    <span class="dot"></span>
+                    <span>11 Apr 2026 at 09:12am</span>
+                  </div>
+                  <p>Click the profile icon in the top right hand corner and select 'My Profile Settings'…</p>
+                </article>
+                <article class="announce-item">
+                  <h4>Video Recordings Must Not Exceed 1 GB</h4>
+                  <div class="meta">
+                    <span>Trainer Team</span>
+                    <span class="dot"></span>
+                    <span>11 Jan 2026 at 12:00am</span>
+                  </div>
+                  <p>When recording videos for simulated scenarios, you must not exceed the 1GB maximum for upload. This may mean that you will need to record it in 2 parts…</p>
+                  <a class="read-more" href="#">Read more</a>
+                </article>
+                <article class="announce-item">
+                  <h4>Open the 'Learning Plan' to commence your course</h4>
+                  <div class="meta">
+                    <span>Alliance College Admin</span>
+                    <span class="dot"></span>
+                    <span>24 Nov 2025 at 10:15am</span>
+                  </div>
+                  <p>Click 'Learning Plan' on your enrolled course tile to start working through the units.</p>
+                </article>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

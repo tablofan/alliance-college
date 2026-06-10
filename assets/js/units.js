@@ -313,9 +313,10 @@
     'cpccbc4007': {
       code: 'CPCCBC4007', title: 'Plan building or construction work',
       section: 'Project Planning & Resources', sectionKey: 'planning',
-      status: 'locked',
+      status: 'satisfactory', submitted: '10 Jun 2026', score: '13/15',
       desc: 'Develop a project plan including scope, schedule, resources, risks and quality controls. Apply critical-path concepts and identify dependencies between trades.',
       projectTask: 'Develop a 20-week construction program for a Class 1a build using the supplied scope. Include critical-path activities, weather contingencies and a procurement lead-time overlay.',
+      submittedFiles: [['construction-program-cpccbc4007.xlsx', '640 KB'], ['critical-path-report.pdf', '890 KB']],
     },
     'cpccbc4006': {
       code: 'CPCCBC4006', title: 'Select, procure and store construction materials for building projects',
@@ -341,9 +342,10 @@
     'cpccbc4003': {
       code: 'CPCCBC4003', title: 'Select, prepare and administer a construction contract',
       section: 'Contracts & Site Administration', sectionKey: 'contracts',
-      status: 'progress',
-      desc: 'Select an appropriate standard form of contract for a residential build, prepare the contract document and administer it through to practical completion. Saturday cohort sessions: Apr 18, May 2, May 9 (all attended); next session 23 May 2026.',
+      status: 'satisfactory', submitted: '03 Jun 2026', score: '14/15',
+      desc: 'Select an appropriate standard form of contract for a residential build, prepare the contract document and administer it through to practical completion.',
       projectTask: 'Using the HIA New Homes Contract template, prepare a contract for the supplied scope. Identify five clauses that you would negotiate with the client and justify your position.',
+      submittedFiles: [['contract-draft-cpccbc4003.pdf', '1.6 MB'], ['negotiation-clauses.pdf', '580 KB']],
     },
     'cpccbc4008': {
       code: 'CPCCBC4008', title: 'Supervise site communication and administration processes for building and construction projects',

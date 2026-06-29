@@ -321,16 +321,18 @@
     'cpccbc4006': {
       code: 'CPCCBC4006', title: 'Select, procure and store construction materials for building projects',
       section: 'Project Planning & Resources', sectionKey: 'planning',
-      status: 'locked',
+      status: 'satisfactory', submitted: '17 Jun 2026', score: '13/15',
       desc: 'Select materials by specification, assess supplier reliability, manage delivery sequencing and site storage to minimise damage and double-handling.',
       projectTask: 'Prepare a procurement plan for the wet-area finishes package. Compare three suppliers on price, lead time and warranty terms. Recommend a supplier and justify your decision.',
+      submittedFiles: [['procurement-plan-cpccbc4006.pdf', '1.1 MB'], ['supplier-comparison.xlsx', '380 KB']],
     },
     'cpccbc4004': {
       code: 'CPCCBC4004', title: 'Identify and produce estimated costs for building and construction projects',
       section: 'Estimating & Tendering', sectionKey: 'estimating',
-      status: 'locked',
+      status: 'satisfactory', submitted: '24 Jun 2026', score: '14/15',
       desc: 'Produce a first-principles cost estimate for a residential build using current rates, supplier quotes and historical data. Build up costs for labour, materials, plant, and preliminaries.',
       projectTask: 'Prepare a first-principles estimate for the slab and frame stages of the supplied Class 1a project. Build the labour-and-materials breakdown and apply a preliminaries percentage.',
+      submittedFiles: [['cost-estimate-cpccbc4004.xlsx', '720 KB'], ['estimate-report.pdf', '950 KB']],
     },
     'cpccbc4013': {
       code: 'CPCCBC4013', title: 'Prepare and evaluate tender documentation',

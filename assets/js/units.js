@@ -337,9 +337,10 @@
     'cpccbc4013': {
       code: 'CPCCBC4013', title: 'Prepare and evaluate tender documentation',
       section: 'Estimating & Tendering', sectionKey: 'estimating',
-      status: 'locked',
+      status: 'satisfactory', submitted: '08 Jul 2026', score: '14/15',
       desc: 'Compile a tender package, issue to tenderers, evaluate returned tenders against price, scope and qualifications, and recommend an award.',
       projectTask: 'Compile a tender package (scope, drawings, specification, conditions of tender) for the supplied project. Evaluate three returned tenders using a scoring matrix and produce a recommendation report.',
+      submittedFiles: [['tender-package-cpccbc4013.pdf', '2.4 MB'], ['tender-evaluation-matrix.xlsx', '460 KB']],
     },
     'cpccbc4003': {
       code: 'CPCCBC4003', title: 'Select, prepare and administer a construction contract',

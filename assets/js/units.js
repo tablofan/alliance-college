@@ -353,16 +353,18 @@
     'cpccbc4008': {
       code: 'CPCCBC4008', title: 'Supervise site communication and administration processes for building and construction projects',
       section: 'Contracts & Site Administration', sectionKey: 'contracts',
-      status: 'locked',
+      status: 'satisfactory', submitted: '18 Jul 2026', score: '14/15',
       desc: 'Establish and supervise communication protocols on a building site — RFIs, toolbox talks, daily site diary, variations, EOTs, progress claims and handover documentation.',
       projectTask: 'Record a 5-minute video walking through a daily site diary entry, a toolbox talk briefing, and a variation discussion with a client. Upload your video (MP4, under 1 GB).',
+      submittedFiles: [['site-comms-walkthrough.mp4', '412 MB'], ['site-diary-extract.pdf', '640 KB']],
     },
     'cpccbc4010': {
       code: 'CPCCBC4010', title: 'Apply structural principles to residential and commercial constructions',
       section: 'Structural Principles', sectionKey: 'structural',
-      status: 'locked',
+      status: 'satisfactory', submitted: '22 Jul 2026', score: '13/15',
       desc: 'Identify load paths in residential and low-rise commercial structures. Apply principles of bending, shear and compression to footings, beams, columns and connections.',
       projectTask: 'For the supplied Class 1a frame plan, trace the load path from roof to footing. Identify the critical load-bearing members and verify bracing requirements per AS 1684 for an N3 wind classification.',
+      submittedFiles: [['load-path-analysis-cpccbc4010.pdf', '1.5 MB'], ['frame-plan-marked-up.pdf', '3.1 MB']],
     },
     'cpccbc4011': {
       code: 'CPCCBC4011', title: 'Apply structural principles to commercial low-rise constructions',

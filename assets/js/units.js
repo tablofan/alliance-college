@@ -369,23 +369,26 @@
     'cpccbc4011': {
       code: 'CPCCBC4011', title: 'Apply structural principles to commercial low-rise constructions',
       section: 'Structural Principles', sectionKey: 'structural',
-      status: 'locked',
+      status: 'satisfactory', submitted: '12 Aug 2026', score: '14/15',
       desc: 'Identify and verify structural elements in commercial low-rise construction — steel portal frames, concrete tilt panels, suspended slabs and connection details.',
       projectTask: 'Analyse the supplied portal-frame warehouse — identify primary and secondary structural members, the bracing strategy, and the load path under wind and gravity loads.',
+      submittedFiles: [['portal-frame-analysis.pdf', '1.7 MB']],
     },
     'cpccbc4020': {
       code: 'CPCCBC4020', title: 'Build thermally efficient and sustainable structures',
       section: 'Sustainability & Thermal Efficiency', sectionKey: 'sustainability',
-      status: 'locked',
+      status: 'satisfactory', submitted: '26 Aug 2026', score: '13/15',
       desc: 'Design and construct dwellings that meet NCC 7-star NatHERS performance — insulation R-values, glazing performance, thermal mass, draught sealing and orientation.',
       projectTask: 'Modify the supplied Class 1a dwelling design to achieve 7-star NatHERS. Document the changes — insulation upgrade, glazing specification, eave shading, orientation — and explain the rationale.',
+      submittedFiles: [['thermal-efficiency-design.pdf', '2.0 MB']],
     },
     'bsbsus411': {
       code: 'BSBSUS411', title: 'Implement and monitor environmentally sustainable work practices',
       section: 'Sustainability & Thermal Efficiency', sectionKey: 'sustainability',
-      status: 'locked',
+      status: 'satisfactory', submitted: '20 Sep 2026', score: '14/15',
       desc: 'Audit current site practices for environmental impact, set sustainability targets, and implement procedures for waste, water and energy.',
       projectTask: 'Audit the supplied case-study site against environmental indicators (waste, water, energy, sediment). Produce an Environmental Management Plan with three improvement actions.',
+      submittedFiles: [['environmental-management-plan.pdf', '1.3 MB']],
     },
     'bsbops402': {
       code: 'BSBOPS402', title: 'Coordinate business operational plans',
@@ -403,7 +406,7 @@
     },
     'bsbtwk401': {
       code: 'BSBTWK401', title: 'Build and maintain business relationships',
-      section: 'Business & Operations', sectionKey: 'business',
+      section: 'Optional enrichment (outside the 22 CPC40120 units)', sectionKey: 'business',
       status: 'locked',
       desc: 'Build and maintain productive business relationships with clients, suppliers, subcontractors and consultants — both face-to-face and in writing.',
       projectTask: 'Record a 5-minute video of a simulated negotiation with a supplier over a delivery delay. Demonstrate active listening, problem framing, and a documented next-step commitment.',

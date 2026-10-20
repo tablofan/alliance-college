@@ -353,7 +353,7 @@
     'cpccbc4008': {
       code: 'CPCCBC4008', title: 'Supervise site communication and administration processes for building and construction projects',
       section: 'Contracts & Site Administration', sectionKey: 'contracts',
-      status: 'satisfactory', submitted: '18 Jul 2026', score: '14/15',
+      status: 'satisfactory', submitted: '27 Jun 2026', score: '14/15',
       desc: 'Establish and supervise communication protocols on a building site — RFIs, toolbox talks, daily site diary, variations, EOTs, progress claims and handover documentation.',
       projectTask: 'Record a 5-minute video walking through a daily site diary entry, a toolbox talk briefing, and a variation discussion with a client. Upload your video (MP4, under 1 GB).',
       submittedFiles: [['site-comms-walkthrough.mp4', '412 MB'], ['site-diary-extract.pdf', '640 KB']],
@@ -361,7 +361,7 @@
     'cpccbc4010': {
       code: 'CPCCBC4010', title: 'Apply structural principles to residential and commercial constructions',
       section: 'Structural Principles', sectionKey: 'structural',
-      status: 'satisfactory', submitted: '22 Jul 2026', score: '13/15',
+      status: 'satisfactory', submitted: '18 Jul 2026', score: '13/15',
       desc: 'Identify load paths in residential and low-rise commercial structures. Apply principles of bending, shear and compression to footings, beams, columns and connections.',
       projectTask: 'For the supplied Class 1a frame plan, trace the load path from roof to footing. Identify the critical load-bearing members and verify bracing requirements per AS 1684 for an N3 wind classification.',
       submittedFiles: [['load-path-analysis-cpccbc4010.pdf', '1.5 MB'], ['frame-plan-marked-up.pdf', '3.1 MB']],
@@ -369,26 +369,26 @@
     'cpccbc4011': {
       code: 'CPCCBC4011', title: 'Apply structural principles to commercial low-rise constructions',
       section: 'Structural Principles', sectionKey: 'structural',
-      status: 'satisfactory', submitted: '12 Aug 2026', score: '14/15',
+      status: 'satisfactory', submitted: '08 Aug 2026', score: '13/15',
       desc: 'Identify and verify structural elements in commercial low-rise construction — steel portal frames, concrete tilt panels, suspended slabs and connection details.',
       projectTask: 'Analyse the supplied portal-frame warehouse — identify primary and secondary structural members, the bracing strategy, and the load path under wind and gravity loads.',
-      submittedFiles: [['portal-frame-analysis.pdf', '1.7 MB']],
+      submittedFiles: [['portal-frame-analysis-cpccbc4011.pdf', '1.7 MB'], ['bracing-markup.pdf', '2.3 MB']],
     },
     'cpccbc4020': {
       code: 'CPCCBC4020', title: 'Build thermally efficient and sustainable structures',
       section: 'Sustainability & Thermal Efficiency', sectionKey: 'sustainability',
-      status: 'satisfactory', submitted: '26 Aug 2026', score: '13/15',
+      status: 'satisfactory', submitted: '29 Aug 2026', score: '14/15',
       desc: 'Design and construct dwellings that meet NCC 7-star NatHERS performance — insulation R-values, glazing performance, thermal mass, draught sealing and orientation.',
       projectTask: 'Modify the supplied Class 1a dwelling design to achieve 7-star NatHERS. Document the changes — insulation upgrade, glazing specification, eave shading, orientation — and explain the rationale.',
-      submittedFiles: [['thermal-efficiency-design.pdf', '2.0 MB']],
+      submittedFiles: [['nathers-7star-report.pdf', '2.2 MB'], ['design-changes-markup.pdf', '3.4 MB']],
     },
     'bsbsus411': {
       code: 'BSBSUS411', title: 'Implement and monitor environmentally sustainable work practices',
       section: 'Sustainability & Thermal Efficiency', sectionKey: 'sustainability',
-      status: 'satisfactory', submitted: '20 Sep 2026', score: '14/15',
+      status: 'satisfactory', submitted: '19 Sep 2026', score: '13/15',
       desc: 'Audit current site practices for environmental impact, set sustainability targets, and implement procedures for waste, water and energy.',
       projectTask: 'Audit the supplied case-study site against environmental indicators (waste, water, energy, sediment). Produce an Environmental Management Plan with three improvement actions.',
-      submittedFiles: [['environmental-management-plan.pdf', '1.3 MB']],
+      submittedFiles: [['environmental-management-plan.pdf', '1.4 MB'], ['site-audit-checklist.xlsx', '260 KB']],
     },
     'bsbops402': {
       code: 'BSBOPS402', title: 'Coordinate business operational plans',
@@ -437,7 +437,7 @@
       : unit.status === 'progress'
       ? 'In progress'
       : unit.status === 'locked'
-      ? 'Unlocks after CPC40120 completion'
+      ? 'Unlocks at the next scheduled session'
       : 'Not started';
 
     return `
@@ -497,7 +497,7 @@
     const footMeta = isDone
       ? `<div class="submitted-info">Submitted <strong>${unit.submitted}</strong>${unit.score ? ' · Score <strong>' + unit.score + '</strong>' : ''} · Marked by Luke Gu</div>`
       : unit.status === 'progress'
-      ? '<div class="submitted-info">In progress · last saved 14 May 2026</div>'
+      ? '<div class="submitted-info">In progress · last saved 20 Oct 2026</div>'
       : '<div class="submitted-info">No submission yet</div>';
     const questionsHtml = bank.map((q, i) => renderQuestion(q, i, locked, showAnswers)).join('');
     return `
@@ -564,7 +564,7 @@
           ${isDone
             ? `<div class="uploaded-files">${files}</div>`
             : locked
-            ? '<div class="question-list-summary"><span>Upload unlocks when CPC40120 is complete.</span></div>'
+            ? '<div class="question-list-summary"><span>Upload unlocks when this unit starts.</span></div>'
             : `
               <label class="upload-zone" id="upload-zone">
                 <input type="file" multiple accept=".pdf,.jpg,.jpeg,.png,.mp4,.docx,.xlsx,.zip" />

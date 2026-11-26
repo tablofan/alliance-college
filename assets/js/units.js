@@ -393,16 +393,18 @@
     'bsbops402': {
       code: 'BSBOPS402', title: 'Coordinate business operational plans',
       section: 'Business & Operations', sectionKey: 'business',
-      status: 'locked',
+      status: 'satisfactory', submitted: '04 Nov 2026', score: '14/15',
       desc: 'Develop, implement and monitor an operational plan for a small builder. Set KPIs, allocate resources, and review outcomes against the plan.',
       projectTask: 'Develop an operational plan for a fictional builder ("BuildRight SA") covering 12 months. Include quarterly KPIs, resourcing, marketing actions and a budget summary.',
+      submittedFiles: [['operational-plan-buildright-sa.pdf', '1.3 MB'], ['kpi-dashboard.xlsx', '290 KB']],
     },
     'bsbpmg423': {
       code: 'BSBPMG423', title: 'Apply project scope management techniques',
       section: 'Business & Operations', sectionKey: 'business',
-      status: 'locked',
+      status: 'satisfactory', submitted: '18 Nov 2026', score: '13/15',
       desc: 'Define, document and control project scope using a baseline + change-control approach. Manage scope creep and document variations.',
       projectTask: 'Apply scope-management techniques to the supplied Class 1a project. Produce a scope baseline, a change-control register, and a variation order for a client-requested kitchen upgrade.',
+      submittedFiles: [['scope-baseline-bsbpmg423.pdf', '1.1 MB'], ['change-control-register.xlsx', '340 KB']],
     },
     'bsbtwk401': {
       code: 'BSBTWK401', title: 'Build and maintain business relationships',
